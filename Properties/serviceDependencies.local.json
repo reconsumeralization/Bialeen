@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "powerplatform1": {
+      "type": "powerplatform.local"
+    }
+  }
+}

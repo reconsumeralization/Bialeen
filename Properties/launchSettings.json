@@ -1,0 +1,42 @@
+{
+  "$schema": "http://json.schemastore.org/launchsettings.json",
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:3978/",
+      "sslPort": 0
+    }
+  },
+  "profiles": {
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "devTunnelEnabled": true,
+      "devTunnelAccess": "public",
+      "powerPlatform": {
+        "environmentId": "Default-99d1218b-d796-47ba-8335-651564aa787d",
+        "createConnector": true,
+        "connectorName": "Bialeen_Connector"
+      }
+    },
+    "CoreBot": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "applicationUrl": "http://localhost:3978",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "devTunnelEnabled": true,
+      "devTunnelAccess": "public",
+      "powerPlatform": {
+        "environmentId": "Default-99d1218b-d796-47ba-8335-651564aa787d",
+        "createConnector": true,
+        "connectorName": "Bialeen_Connector"
+      }
+    }
+  }
+}
